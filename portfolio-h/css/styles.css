@@ -27,6 +27,9 @@ audio:not([controls]) {
   display: none;
   height: 0; }
 
+
+
+
 [hidden], template {
   display: none; }
 
@@ -168,7 +171,7 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
+  margin: -100px;
   padding: 0; }
 
 audio, canvas, iframe, img, svg, video {
@@ -276,10 +279,12 @@ h1 {
             transform: scale(1); }
 .header-logo {
   position: absolute;
-  left: 41.61%;
+  left: 45.61%;
   right: 41.54%;
-  top: 0%;
+  top: 100%;
   bottom: 0%;
+  border-radius: 70px;
+  border-color:white;
 }
 
 .bcg {
