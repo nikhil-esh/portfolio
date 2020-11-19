@@ -25,6 +25,8 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/styles.css">
         <!-- <link rel="stylesheet" href="./src/css/main.css"> -->
+        <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+        <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
         <script src="js/typewriter.js"></script>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -47,15 +49,15 @@
                     <p>Hi<br>you are welcome to the portfolio of</p>
                    
                 </div>
+        
+                <img class="header-logo" src="img/logo.jpg" alt="" width="120px"><hr>
                 <div class="header-text-main">
-                    
-                    <img class="header-logo" src="img/logo.jpg" alt="" width="120px"><hr>
-                    <br>
                     <h1>
                         Himanshu Kanojiya
                     </h1>
                 </div>
                 <div class="header-text2">
+                    <br>
                     <p>A
                         <span
                            class="txt-rotate"
@@ -81,7 +83,7 @@
 
         <div id="main" class="main-container">
 
-            <article id="cb01" class="content-block">
+            <!-- <article id="cb01" class="content-block">
                 <div class="wrapper">
                     <header class="slideInUp">
                         <h1>SIMPLIFY</h1>
@@ -89,8 +91,8 @@
                     <section>
                         <p class="slideInUp slideInUp2">Simplify your content to a MINIMUM.</p>
                     </section>
-                </div> <!-- .wrapper -->
-            </article>
+                </div>
+            </article> -->
             
             <article id="slide01" class="slide fs">
                 <div class="bcg"></div>
@@ -99,7 +101,18 @@
                         <h1>A picture is worth a thousand words</h1>
                     </header>
                     <section>
-                        <p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p>
+                        
+                        <!-- <p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p> -->
+                    <div class="magic">
+                        <div class="MagicScroll" data-options="mode: carousel; height: 100px;">
+                            <img src="img/carousel/1.jpg" />
+                            <img src="img/carousel/4.jpg" />
+                            <img src="img/carousel/2.jpg" />
+                            <img src="img/carousel/3.jpg"/>
+                            <img src="img/carousel/2.jpg" />
+                            <img src="img/carousel/4.jpg" />
+                        </div>
+                    </div>
                     </section>
                 </div> <!-- .wrapper -->
             </article>
