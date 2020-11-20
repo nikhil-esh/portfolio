@@ -24,9 +24,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/navstyle.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- <link rel="stylesheet" href="./src/css/main.css"> -->
         <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
         <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
         <script src="js/typewriter.js"></script>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -71,16 +77,47 @@
             </header>
             <span class="scroll-hint"></span>
         </div>
-
-        <nav>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Your Logo</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#intro">About</a></li>
+                        <li><a href="#slide01">Portfolio</a></li>
+                        <li><a href="#slide02">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+        <!-- <nav>
             <ul>
                 <li><a href="#intro"><span class="nav-dot"></span><span class="nav-label">Intro</span></a></li>
                 <li><a href="#slide01"><span class="nav-dot"></span><span class="nav-label">Images</span></a></li>
                 <li><a href="#slide02"><span class="nav-dot"></span><span class="nav-label">Position and Timing</span></a></li>
                 <li><a href="#slide03"><span class="nav-dot"></span><span class="nav-label">Download</span></a></li>
             </ul>
-        </nav>
-
+        </nav> -->
+        <div class="footer">
+            <div class="row">
+            <div class="social-links">
+                <a href="#!"><i class="fa fa-facebook"></i></a>
+                <a href="#!"><i class="fa fa-youtube-square"></i></a>
+                <a href="#!"><i class="fa fa-twitter"></i></a>
+                <a href="#!"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                <p>All Rights Reserved &copy;</p>
+            </div>
+            </div>
+        </div>
         <div id="main" class="main-container">
 
             <!-- <article id="cb01" class="content-block">
@@ -117,7 +154,7 @@
                 </div> <!-- .wrapper -->
             </article>
 
-            <article id="cb02" class="content-block">
+            <!-- <article id="cb02" class="content-block">
                 <div class="wrapper">
                     <header class="slideInUp">
                         <h1>FOCUS</h1>
@@ -125,14 +162,14 @@
                     <section>
                         <p class="slideInUp slideInUp2">Focus on the most IMPORTANT thing. The one thing!</p>
                     </section>
-                </div> <!-- .wrapper -->
-            </article>
+                </div>
+            </article> -->
 
             <article id="slide02" class="slide fs">
                 <div class="bcg"></div>
                 <div class="wrapper">
                     <header class="slideInUp">
-                        <h1>Position and Timing</h1>
+                        <h1>About Me</h1>
                     </header>
                     <section>
                         <p class="slideInUp slideInUp2">Position elements based on the background image and trigger animation at the right time.</p>
@@ -224,5 +261,22 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+<!-- partial -->
+  <script  src="js/navscript.js"></script>
     </body>
 </html>

@@ -46,6 +46,7 @@
 }
 
 .MagicScroll {
+    margin-top: 100px;
     z-index: 1;
     cursor: -webkit-grab;
     cursor: -o-grab;

@@ -306,7 +306,7 @@ hr {
     background: url(../img/img_mountains01.jpg) no-repeat center center;
     background-size: cover; }
   #slide02 .bcg {
-    background: url(../img/img_mountains03.jpg) no-repeat center center;
+    background: url(../img/whitebg.jpg) no-repeat center center;
     background-size: cover; }
   #slide03 .bcg {
     background: url(../img/img_mountains04.jpg) no-repeat center center;
@@ -339,7 +339,9 @@ hr {
 
 
 /* =Navigation */
-nav {
+
+
+/* nav {
   display: none;
   position: fixed;
   right: 30px;
@@ -398,7 +400,7 @@ nav {
     padding: 0; }
   nav li {
     width: auto;
-    list-style: none; }
+    list-style: none; } */
 
 /* .scroll-hint {
   color: #212121;
@@ -433,13 +435,14 @@ p {
     z-index: 2; }
   .slide#slide01 .wrapper {
     position: absolute;
-    top: 10%;
+    
     color: white; 
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .slide#slide02 .wrapper {
     position: absolute;
-    bottom: 10%; }
+    color: #161611;
+     }
   .slide#slide03 .button {
     border-color: #ffffff;
     color: #212121;
@@ -483,17 +486,106 @@ p {
     transform: translate3d(0, 0, 0); }
 
 /* =Footer */
-.footer-container {
+.footer {
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #15202B;
+  width: 100%;
+}
+
+.row {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.social-links {
+  float: left;
+}
+
+.copyright {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  color: #EEEEEE;
+}
+
+.fa {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fa-facebook {
+  background-color: #3B5998;
+  color: #FFFFFF;
+  width: 35px;
+  height: 35px;
   text-align: center;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #06060d; }
-  .footer-container h3 {
-    margin: 0;
-    padding: 20px 0;
-    font-weight: normal; }
-  .footer-container a {
-    color: rgba(255, 255, 255, 0.5); }
+  vertical-align: middle;
+}
+.fa-facebook:hover {
+  animation-name: spin;
+  animation-duration: 175ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+.fa-youtube-square {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+.fa-youtube-square:hover {
+  animation-name: spin;
+  animation-duration: 175ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+.fa-twitter {
+  background-color: #1DA1F2;
+  color: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+.fa-twitter:hover {
+  animation-name: spin;
+  animation-duration: 175ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+.fa-linkedin {
+  background-color: #2867B2;
+  color: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+.fa-linkedin:hover {
+  animation-name: spin;
+  animation-duration: 175ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
 
 /* =Simple animation up */
 .no-touch .slideInUp {
@@ -602,7 +694,18 @@ p {
   nav {
     display: block; }
   .content-block .wrapper {
-    padding: 120px 0; } }
+    padding: 120px 0; } 
+    .social-links {
+      text-align: center;
+      float: none;
+    }
+  
+    .copyright {
+      text-align: center;
+      float: none;
+    }
+  
+  }
 
 /* ==========================================================================
    Helper classes
