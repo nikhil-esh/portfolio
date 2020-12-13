@@ -46,10 +46,10 @@
             <div class="scr socials">
                 <div class="list-social">
                     <ul>
-                        <li class="hover-target"><a href="work-detail-2.html#">Db.</a></li>
-                        <li class="hover-target"><a href="work-detail-2.html#">Tw.</a></li>
-                        <li class="hover-target"><a href="work-detail-2.html#">Ig.</a></li>
-                        <li class="hover-target"><a href="work-detail-2.html#">Bg.</a></li>
+                        <li class="hover-target"><a href="#">Db.</a></li>
+                        <li class="hover-target"><a href="#">Tw.</a></li>
+                        <li class="hover-target"><a href="#">Ig.</a></li>
+                        <li class="hover-target"><a href="#">Bg.</a></li>
                     </ul>
                 </div>
             </div>
@@ -219,7 +219,7 @@
                 <div class="row">
                     <div class="col-md-4 text-center text-md-left mt-30">
                         <div class="mail hover-target">
-                            <a href="work-detail-2.html#">hello@spiral.design</a>
+                            <a href="#">hello@spiral.design</a>
                         </div>
                     </div>
                     <div class="col-md-4 text-center mt-30">
@@ -230,10 +230,10 @@
                     <div class="col-md-4 text-center text-md-right mt-30">
                         <div class="sosmed">
                             <ul>
-                                <li class="hover-target"><a href="work-detail-2.html#">Dribbble.</a></li>
-                                <li class="hover-target"><a href="work-detail-2.html#">Twitter.</a></li>
-                                <li class="hover-target"><a href="work-detail-2.html#">Instagram.</a></li>
-                                <li class="hover-target"><a href="work-detail-2.html#">Behance.</a></li>
+                                <li class="hover-target"><a href="#">Dribbble.</a></li>
+                                <li class="hover-target"><a href="#">Twitter.</a></li>
+                                <li class="hover-target"><a href="#">Instagram.</a></li>
+                                <li class="hover-target"><a href="#">Behance.</a></li>
                             </ul>
                         </div>
                         <div class="copyright">

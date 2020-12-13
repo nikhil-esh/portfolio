@@ -45,10 +45,10 @@
             <div class="scr socials">
                 <div class="list-social">
                     <ul>
-                        <li class="hover-target"><a href="index-2.html#">Db.</a></li>
-                        <li class="hover-target"><a href="index-2.html#">Tw.</a></li>
-                        <li class="hover-target"><a href="index-2.html#">Ig.</a></li>
-                        <li class="hover-target"><a href="index-2.html#">Bg.</a></li>
+                        <li class="hover-target"><a href="#">Db.</a></li>
+                        <li class="hover-target"><a href="#">Tw.</a></li>
+                        <li class="hover-target"><a href="#">Ig.</a></li>
+                        <li class="hover-target"><a href="#">Bg.</a></li>
                     </ul>
                 </div>
             </div>

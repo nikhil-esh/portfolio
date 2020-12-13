@@ -51,7 +51,7 @@
         <a class="hover-target" href="work-detail.html">Work Detail</a>
         <a class="hover-target" href="work-detail.html">Work Detail 2</a>
         <a class="hover-target" href="blog.html">Blog</a>
-        <a class="hover-target" href="http://esensifiksi.com/tf/sambat/light/blog-detail-2.html">Blog Detail</a>
+        <a class="hover-target" href="blog-detail-2.html">Blog Detail</a>
         <a class="hover-target" href="error.html">Error 404 Page</a>
     </div>
     <div class="menu__toggler hover-target magnetic"><span></span></div>
