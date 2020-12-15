@@ -424,24 +424,24 @@
         ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".over-all", 1, {
+    t1.to(".over-all", 0.3, {
         autoAlpha: 1,
         ease: Expo.easeOut,
     })
-    t1.to(".bg-nav", 1, {
+    t1.to(".bg-nav", 0.3, {
         autoAlpha: 1,
         ease: Power4.easeOut,
         delay: -1
     })
 
 
-    t1.to(".menu", 1, {
+    t1.to(".menu", 0.3, {
         autoAlpha: 1,
         ease: Expo.easeOut,
         delay: -1
     })
 
-    t1.staggerFrom(".menu ul li", 3, {
+    t1.staggerFrom(".menu ul li", 1, {
         y: 50,
         opacity: 0,
         ease: Power4.easeInOut,
