@@ -183,7 +183,7 @@
 
     luxy.init({
         wrapper: '#spiral',
-   
+     
     });
 
     //--------------------------------------------------
@@ -449,10 +449,10 @@
 
 
     t1.reverse();
-     $('.toggle-btn').on("click", function () {
+      $('.toggle-btn').on("click", function () {
         t1.reversed(!t1.reversed()); //toggles the orientation
     })
-  ;
+  
 
     //--------------------------------------------------
     // Magnetic
