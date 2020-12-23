@@ -1259,7 +1259,8 @@ h3.detail-title {
     color: #fff;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 40px
+    font-size: 60px;
+    text-align: center;
 }
 
 .article {
@@ -1331,7 +1332,31 @@ h3.detail-title {
     top: 25vh
 }
 
-.bg-detail-work-2 {
+.bg-detail-work-calumny {
+    background: url(../img/detail-work/calumny.jpg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    height: 50vh;
+    width: 50vw;
+    left: 25%;
+    top: 25vh
+}
+
+.bg-detail-work-pondicherry {
+    background: url(../img/detail-work/2/3.jpg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    height: 50vh;
+    width: 50vw;
+    left: 25%;
+    top: 25vh
+}
+
+.bg-detail-work-siyaahi {
     background: url(../img/detail-work/2/3.jpg) center no-repeat;
     background-size: cover;
     z-index: -1;
