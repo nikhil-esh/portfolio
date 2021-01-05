@@ -1,10 +1,10 @@
-(function ($) {
+(function($) {
     "use strict";
 
     //--------------------------------------------------
     // Preloader
     //--------------------------------------------------
-    $(window).on('load', function () {
+    $(window).on('load', function() {
         $('.preloader').fadeOut('slow');
         RevealLoad();
         startAnim();
@@ -119,9 +119,9 @@
         loadTL.play();
     }
 
-    $('.load-spiral').on('click', function (e) {
+    $('.load-spiral').on('click', function(e) {
         e.preventDefault();
-        setTimeout(function (url) {
+        setTimeout(function(url) {
             window.location = url
         }, 1000, this.href);
         HideLoad();
@@ -133,7 +133,7 @@
     //--------------------------------------------------
     var wind = $(window);
 
-    wind.on("scroll", function () {
+    wind.on("scroll", function() {
         var bodyScroll = wind.scrollTop();
 
         if (bodyScroll > 300) {
@@ -168,13 +168,13 @@
     });
 
 
-    $('.img-folio').on('mouseenter', function () {
+    $('.img-folio').on('mouseenter', function() {
         TweenMax.to(this, 0.4, {
             y: '-30',
         })
     });
 
-    $('.img-folio').on('mouseleave', function () {
+    $('.img-folio').on('mouseleave', function() {
         TweenMax.to(this, 0.4, {
             y: '1',
         })
@@ -183,7 +183,7 @@
 
     luxy.init({
         wrapper: '#spiral',
-     
+
     });
 
     //--------------------------------------------------
@@ -212,7 +212,7 @@
         $cursor: document.querySelector('.cursor'),
         $cursor1: document.querySelector('.cursor1'),
 
-        init: function () {
+        init: function() {
             $('body').css('cursor', 'none');
 
             // Set up element sizes
@@ -228,22 +228,22 @@
             this.cursorPrev();
         },
 
-        setupEventListeners: function () {
+        setupEventListeners: function() {
             var self = this;
 
             // Anchor hovering
-            Array.prototype.slice.call(document.querySelectorAll('  .zoom-cursor, .hover-target')).forEach(function (el) {
-                el.addEventListener('mouseover', function () {
+            Array.prototype.slice.call(document.querySelectorAll('  .zoom-cursor, .hover-target')).forEach(function(el) {
+                el.addEventListener('mouseover', function() {
                     self.cursorEnlarged = true;
                     self.toggleCursorSize();
                 });
-                el.addEventListener('mouseout', function () {
+                el.addEventListener('mouseout', function() {
                     self.cursorEnlarged = false;
                     self.toggleCursorSize();
                 });
             });
 
-            document.addEventListener('mousemove', function (e) {
+            document.addEventListener('mousemove', function(e) {
                 // Show the cursor
                 self.cursorVisible = true;
                 self.toggleCursorVisibility();
@@ -256,14 +256,14 @@
             });
 
             // Hide/show cursor
-            document.addEventListener('mouseenter', function (e) {
+            document.addEventListener('mouseenter', function(e) {
                 self.cursorVisible = true;
                 self.toggleCursorVisibility();
                 self.$cursor.style.opacity = 1;
                 self.$cursor1.style.opacity = 1;
             });
 
-            document.addEventListener('mouseleave', function (e) {
+            document.addEventListener('mouseleave', function(e) {
                 self.cursorVisible = true;
                 self.toggleCursorVisibility();
                 self.$cursor.style.opacity = 0;
@@ -271,7 +271,7 @@
             });
         },
 
-        animateDotOutline: function () {
+        animateDotOutline: function() {
             var self = this;
 
             self._x += (self.endX - self._x) / self.delay;
@@ -282,7 +282,7 @@
             requestAnimationFrame(this.animateDotOutline.bind(self));
         },
 
-        toggleCursorSize: function () {
+        toggleCursorSize: function() {
             var self = this;
 
             if (self.cursorEnlarged) {
@@ -292,7 +292,7 @@
             }
         },
 
-        toggleCursorVisibility: function () {
+        toggleCursorVisibility: function() {
             var self = this;
 
             if (self.cursorVisible) {
@@ -304,52 +304,52 @@
             }
         },
 
-        cursorDrag: function () {
+        cursorDrag: function() {
             var self = this;
-            $('.cursorDrag').on('mouseenter', function () {
+            $('.cursorDrag').on('mouseenter', function() {
                 self.$cursor1.classList.add('drag', 'expand');
             });
-            $('.cursorDrag').on('mouseleave', function () {
+            $('.cursorDrag').on('mouseleave', function() {
                 self.$cursor1.classList.remove('drag', 'expand');
             });
         },
 
-        cursorExplore: function () {
+        cursorExplore: function() {
             var self = this;
-            $('.cursorExplore').on('mouseenter', function () {
+            $('.cursorExplore').on('mouseenter', function() {
                 self.$cursor1.classList.add('explore');
             });
-            $('.cursorExplore').on('mouseleave', function () {
+            $('.cursorExplore').on('mouseleave', function() {
                 self.$cursor1.classList.remove('explore');
             });
         },
 
-        cursorZoom: function () {
+        cursorZoom: function() {
             var self = this;
-            $('.cursorZoom').on('mouseenter', function () {
+            $('.cursorZoom').on('mouseenter', function() {
                 self.$cursor1.classList.add('zoom');
             });
-            $('.cursorZoom').on('mouseleave', function () {
+            $('.cursorZoom').on('mouseleave', function() {
                 self.$cursor1.classList.remove('zoom');
             });
         },
 
-        cursorNext: function () {
+        cursorNext: function() {
             var self = this;
-            $('.cursorNext').on('mouseenter', function () {
+            $('.cursorNext').on('mouseenter', function() {
                 self.$cursor1.classList.add('next');
             });
-            $('.cursorNext').on('mouseleave', function () {
+            $('.cursorNext').on('mouseleave', function() {
                 self.$cursor1.classList.remove('next');
             });
         },
 
-        cursorPrev: function () {
+        cursorPrev: function() {
             var self = this;
-            $('.cursorPrev').on('mouseenter', function () {
+            $('.cursorPrev').on('mouseenter', function() {
                 self.$cursor1.classList.add('prev');
             });
-            $('.cursorPrev').on('mouseleave', function () {
+            $('.cursorPrev').on('mouseleave', function() {
                 self.$cursor1.classList.remove('prev');
             });
         }
@@ -395,10 +395,10 @@
             }
         });
 
-        $('.right-over-next').on("click", function () {
+        $('.right-over-next').on("click", function() {
             workSlide.trigger('next.owl.carousel');
         })
-        $('.right-over-prev').on("click", function () {
+        $('.right-over-prev').on("click", function() {
             workSlide.trigger('prev.owl.carousel');
         })
     }
@@ -449,17 +449,17 @@
 
 
     t1.reverse();
-      $('.toggle-btn').on("click", function () {
+    $('.toggle-btn').on("click", function() {
         t1.reversed(!t1.reversed()); //toggles the orientation
     })
-  
+
 
     //--------------------------------------------------
     // Magnetic
     //--------------------------------------------------
 
-    $(document).on('mousemove', function (e) {
-        $('.magnetic').each(function () {
+    $(document).on('mousemove', function(e) {
+        $('.magnetic').each(function() {
             if (!isMobile) {
                 magnetic(this, e); //Init effect magnetic 
             }
@@ -511,7 +511,7 @@
         pagination: {
             el: '.swiper-pagination',
             type: 'progressbar',
-          },
+        },
         loop: false,
         centeredSlides: false,
         speed: 900,
@@ -520,37 +520,37 @@
 
     });
 
-    workSlide.on('slideChange', function () {
+    workSlide.on('slideChange', function() {
         TweenMax.to('.text-1', 0.3, {
             y: '80',
-         
+
         })
         TweenMax.to('.text-2', 0.3, {
             y: '80',
-         
+
         })
 
-      
-        
+
+
     });
 
-    workSlide.on('slideChangeTransitionEnd', function () {
+    workSlide.on('slideChangeTransitionEnd', function() {
         TweenMax.to('.text-1', 0.3, {
             y: '0',
-         
+
         })
         TweenMax.to('.text-2', 0.3, {
             y: '0',
-         
+
         })
-   
+
     });
 
 
 
     var toggler = $('.menu__toggler');
     var menu = $('.menus');
-    toggler.on("click", function () {
+    toggler.on("click", function() {
         toggler.toggleClass('activez');
         menu.toggleClass('activez');
     });
