@@ -6,24 +6,28 @@
 .sol50 {
     float: left;
     width: 50%;
-    padding-right: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .sag50 {
     float: right;
     width: 50%;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .full100 {
     float: left;
     width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .iletisim_form .sag50,
 .iletisim_form .sol50,
 .iletisim_form .full100 {
-    margin: 5px 0;
+    margin: 15px 0;
     position: relative;
 }
 
@@ -47,6 +51,7 @@
     width: 100%;
     height: 50px;
     padding: 0 15px;
+    color: white;
     border: 1px dashed white;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
     transition: 300ms;
@@ -63,15 +68,9 @@
     background: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.9);
     transition: 300ms;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-top: 15px;
     margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.iletisim_form button:hover {
-    opacity: .7;
 }
 
 .iletisim_form textarea {
@@ -79,6 +78,7 @@
     width: 100%;
     height: 140px;
     padding: 10px;
+    color: white;
     transition: 300ms;
     border: 1px dashed white;
     font-family: 'Roboto', sans-serif;

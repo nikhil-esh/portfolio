@@ -2138,7 +2138,7 @@
                                                 <p>03</p><a class="menu-link hover-target load-spiral" href="about.html">About</a>
                                             </li>
                                             <li>
-                                                <p>04</p><a class="menu-link hover-target load-spiral" href="blog.html">Contact</a>
+                                                <p>04</p><a class="menu-link hover-target load-spiral" href="#section-form">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -2381,33 +2381,43 @@
 
         <section class="contact-form">
             <div class="container">
-                <h1 class="title">My Responsive Contact Form Works</h1>
+                <div class="col-md-12">
+                    <div class="main-title text-center">
+
+                        <h2>contact <span>me</span></h2>
+                    </div>
+                </div>
+                <br><br>
                 <form class="iletisim_form" action="https://formspree.io/f/xnqolyqe" method="POST">
                     <!--No Delete style class :)-->
                     <div class="style"></div>
                     <!--No Delete style class :)-->
-                    <div class="sol50">
+                    <div class="sol50 hover-target">
                         <span>
-                            <label for="namesurmane">Name Surname</label>
+                            <div class="hover-target">
+                                <label for="namesurmane">Name Surname</label>
+                            </div>
                             <input type="text" name="namesurmane" id="namesurmane">
                         </span>
                     </div>
-                    <div class="sag50">
+                    <div class="sag50 ">
                         <span>
-                            <label for="email">Email</label>
+                            <div class="hover-target"><label for="email">Email</label></div>
                             <input type="email" name="email" id="email">
                         </span>
                     </div>
                     <div class="full100">
                         <span>
-                    <label for="messenger">Message</label>
+                    <div class="hover-target"><label for="messenger">Message</label></div>
                     <textarea name="messenger" id="messenger"></textarea>
                   </span>
                     </div>
                     <div class="full100">
-                        <span>
-                    <button>Send</button>
-                  </span>
+                        <div class="hover-target">
+                            <span>
+                                <button>Send</button>
+                            </span>
+                        </div>
                     </div>
                 </form>
             </div>
