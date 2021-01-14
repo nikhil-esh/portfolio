@@ -1,0 +1,22 @@
+#head {
+    background-color: #aaa;
+    width: 100%;
+}
+
+#container {
+    cursor: pointer;
+    width: 320px;
+    height: 180px;
+    margin: auto;
+    position: relative;
+}
+
+.inactive-state {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../img/blog/spiti.jpg);
+}
+
+.hover-state {
+    background-image: url(../img/blog/spiti.jpg);
+}
