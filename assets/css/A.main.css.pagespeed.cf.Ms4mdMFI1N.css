@@ -927,6 +927,21 @@ h1.title {
     font-weight: 900
 }
 
+.main-title h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900
+}
+
+.main-title h3 span {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900
+}
+
 .folio-content {
     background: #000
 }
@@ -1094,6 +1109,11 @@ h1.title {
     text-align: center;
     margin: 0;
     font-weight: 700
+}
+
+.btn-download {
+    background-color: black;
+    border: none
 }
 
 .footer {
