@@ -6,8 +6,10 @@
     .menus {
         display: none
     }
-    .logo-foot {
+    .footer .logo-foot {
         text-align: center;
+        margin-left: 150px;
+        margin-top: 20px;
     }
     .swiper-wrapper {
         margin-bottom: -150px;
@@ -137,7 +139,7 @@
     }
 }
 
-@media (min-width:575.98px) and (max-width:767.98px) {
+@media (min-width:768px) @media (min-width:575.98px) and (max-width:767.98px) {
     h3.detail-title {
         font-size: 36px
     }
@@ -226,6 +228,9 @@
     .main-title h2 {
         font-size: 35px
     }
+    .footer .logo-foot {
+        margin-left: 150px;
+    }
     .main-head h1 {
         font-size: 50px
     }
@@ -253,5 +258,8 @@
 @media (min-width:992px) and (max-width:1199.98px) {
     section {
         padding: 100px 0
+    }
+    .footer .logo-foot {
+        margin-left: 200px;
     }
 }

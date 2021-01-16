@@ -60,15 +60,14 @@
 }
 
 .iletisim_form button {
-    float: left;
-    width: 100%;
+    width: 25%;
     height: 50px;
     padding: 0 10px;
     border: none;
     background: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.9);
     transition: 300ms;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
