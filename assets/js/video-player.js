@@ -1,10 +1,7 @@
-var img = $("#exampleImage");
-var configObject = {
-    sourceUrl: img.attr("data-videourl"),
-    triggerElement: "#" + img.attr("id"),
+var videoBuild = new YoutubeOverlayModule({
+    sourceUrl: 'https://www.youtube.com/embed/1Q8fG0TtVAY',
+    triggerElement: "#demo",
     progressCallback: function() {
         console.log("Callback Invoked.");
     }
-};
-
-var videoBuild = new YoutubeOverlayModule(configObject);
+});
