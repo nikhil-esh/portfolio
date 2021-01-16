@@ -163,7 +163,7 @@
                         <div class="blog-item">
                             <!-- <a class="cursorExplore load-spiral" href="blog-detail.html"> -->
                             <div class="blog-img">
-                                <img class="img-fluid img-responsive center-block" alt="Example" title="Example" id="exampleImage1" data-videourl="https://www.youtube.com/embed/b2r0LbOWuU0" src="assets/img/blog/halloweenhouse.jpg">
+                                <img class="img-fluid img-responsive center-block" alt="Example" title="Example" id="exampleImage2" data-videourl="https://www.youtube.com/embed/b2r0LbOWuU0" src="assets/img/blog/halloweenhouse.jpg">
                             </div>
                             <div class="blog-text">
                                 <h3>Halloween House</h3>
@@ -307,9 +307,59 @@
                 console.log("Callback Invoked.");
             }
         };
-
         var videoBuild = new YoutubeOverlayModule(configObject);
         videoBuild.activateDeployment();
+        var img = $("#exampleImage2");
+        var configObject = {
+            sourceUrl: img.attr("data-videourl"),
+            triggerElement: "#" + img.attr("id"),
+            progressCallback: function() {
+                console.log("Callback Invoked.");
+            }
+        };
+        var videoBuild = new YoutubeOverlayModule(configObject);
+        videoBuild.activateDeployment();
+        var img = $("#exampleImage3");
+        var configObject = {
+            sourceUrl: img.attr("data-videourl"),
+            triggerElement: "#" + img.attr("id"),
+            progressCallback: function() {
+                console.log("Callback Invoked.");
+            }
+        };
+        var videoBuild = new YoutubeOverlayModule(configObject);
+        videoBuild.activateDeployment();
+        var img = $("#exampleImage4");
+        var configObject = {
+            sourceUrl: img.attr("data-videourl"),
+            triggerElement: "#" + img.attr("id"),
+            progressCallback: function() {
+                console.log("Callback Invoked.");
+            }
+        };
+        var videoBuild = new YoutubeOverlayModule(configObject);
+        videoBuild.activateDeployment();
+        var img = $("#exampleImage5");
+        var configObject = {
+            sourceUrl: img.attr("data-videourl"),
+            triggerElement: "#" + img.attr("id"),
+            progressCallback: function() {
+                console.log("Callback Invoked.");
+            }
+        };
+        var videoBuild = new YoutubeOverlayModule(configObject);
+        videoBuild.activateDeployment();
+        var img = $("#exampleImage6");
+        var configObject = {
+            sourceUrl: img.attr("data-videourl"),
+            triggerElement: "#" + img.attr("id"),
+            progressCallback: function() {
+                console.log("Callback Invoked.");
+            }
+        };
+        var videoBuild = new YoutubeOverlayModule(configObject);
+        videoBuild.activateDeployment();
+
     </script>
     <script data-pagespeed-no-defer>
         (function() {
