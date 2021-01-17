@@ -1265,11 +1265,36 @@ h1.title {
 }
 
 .blog-text p {
-    color: #8f8f8f
+    color: #8f8f8f;
+    text-align: center;
 }
 
-.bg-detail-blog {
+.bg-detail-blog-motiongraphics {
     background: url(../img/blog/detail.jpg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    top: 0
+}
+
+.bg-detail-blog-ph {
+    background: url(../img/blog/detail2.jpg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    top: 0
+}
+
+.bg-detail-blog-music {
+    background: url(../img/blog/detail1.jpg) center no-repeat;
     background-size: cover;
     z-index: -1;
     position: absolute;
