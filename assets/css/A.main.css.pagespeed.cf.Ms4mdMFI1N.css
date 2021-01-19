@@ -1349,7 +1349,7 @@ h3.detail-title {
 }
 
 .bg-work {
-    background: url(../img/port/2.jpg) center no-repeat;
+    background: url(../img/port/5.png) center no-repeat;
     z-index: 3;
     position: fixed;
     text-align: center;
@@ -1419,7 +1419,7 @@ h3.detail-title {
 }
 
 .bg-detail-work-siyaahi {
-    background: url(../img/detail-work/2/3.jpg) center no-repeat;
+    background: url(../img/port/1.jpg) center no-repeat;
     background-size: cover;
     z-index: -1;
     position: fixed;
