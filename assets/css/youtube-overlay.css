@@ -27,8 +27,8 @@
 
 .videoPlayerOverlay .closeIcon {
     position: absolute;
-    right: 15px;
-    top: 15px;
+    right: 150px;
+    top: 150px;
     width: 3rem;
     opacity: 0.3;
     z-index: 200;
