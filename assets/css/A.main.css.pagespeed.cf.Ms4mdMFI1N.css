@@ -1443,8 +1443,9 @@ h3.detail-title {
 }
 
 .about-work a {
-    font-size: 12px;
-    color: #fff
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold
 }
 
 .next-project {

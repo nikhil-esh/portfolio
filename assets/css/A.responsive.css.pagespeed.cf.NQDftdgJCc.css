@@ -8,7 +8,7 @@
     }
     .footer .logo-foot {
         text-align: center;
-        margin-left: 150px;
+        margin-left: 170px;
         margin-top: 20px;
     }
     .swiper-wrapper {
@@ -140,6 +140,14 @@
     }
     h3.detail-title {
         font-size: 30px
+    }
+}
+
+@media (max-width:320px) {
+    .footer .logo-foot {
+        text-align: center;
+        margin-left: 133px;
+        margin-top: 20px;
     }
 }
 
