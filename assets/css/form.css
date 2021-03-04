@@ -55,7 +55,7 @@
     border: 1px dashed white;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
     transition: 300ms;
-    background: rgba(99, 99, 99, 0.05);
+    background: #121212;
     font-size: 16px;
 }
 
@@ -65,7 +65,7 @@
     padding: 0 10px;
     border: none;
     background: rgb(255, 255, 255);
-    color: rgba(0, 0, 0, 0.9);
+    color: #121212;
     transition: 300ms;
     font-size: 16px;
     margin-top: 15px;
@@ -81,7 +81,7 @@
     transition: 300ms;
     border: 1px dashed white;
     font-family: 'Roboto', sans-serif;
-    background: rgba(0, 0, 0, 0.05);
+    background: #121212;
 }
 
 .iletisim_form input:focus {
@@ -130,7 +130,7 @@
 }
 
 .title {
-    color: rgba(0, 0, 0, 0.8);
+    color: #121212;
     font-size: 40px;
     width: 100%;
     text-align: center;
@@ -145,6 +145,6 @@
     left: 50%;
     width: 100px;
     margin-left: -50px;
-    background: rgba(0, 0, 0, 0.8);
+    background: #121212;
     height: 5px;
 }

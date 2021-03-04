@@ -131,7 +131,7 @@
     font-style: normal;
     font-weight: 900;
     src: url(../fonts/poppins/poppins-v5-latin-900.eot);
-    src: local("Poppins Black"), local("Poppins-Black"), url(../fonts/poppins/poppins-v5-latin-900.eot@) format("embedded-opentype"), url(../fonts/poppins/poppins-v5-latin-900.woff2) format("woff2"), url(../fonts/poppins/poppins-v5-latin-900.woff) format("woff"), url(../fonts/poppins/poppins-v5-latin-900.ttf) format("truetype"), url(../fonts/poppins/poppins-v5-latin-900.svg) format("svg")
+    src: local("Poppins #121212"), local("Poppins-#121212"), url(../fonts/poppins/poppins-v5-latin-900.eot@) format("embedded-opentype"), url(../fonts/poppins/poppins-v5-latin-900.woff2) format("woff2"), url(../fonts/poppins/poppins-v5-latin-900.woff) format("woff"), url(../fonts/poppins/poppins-v5-latin-900.ttf) format("truetype"), url(../fonts/poppins/poppins-v5-latin-900.svg) format("svg")
 }
 
 @font-face {
@@ -139,7 +139,7 @@
     font-style: italic;
     font-weight: 900;
     src: url(../fonts/poppins/poppins-v5-latin-900italic.eot);
-    src: local("Poppins Black Italic"), local("Poppins-BlackItalic"), url(../fonts/poppins/poppins-v5-latin-900italic.eot@) format("embedded-opentype"), url(../fonts/poppins/poppins-v5-latin-900italic.woff2) format("woff2"), url(../fonts/poppins/poppins-v5-latin-900italic.woff) format("woff"), url(../fonts/poppins/poppins-v5-latin-900italic.ttf) format("truetype"), url(../fonts/poppins/poppins-v5-latin-900italic.svg) format("svg")
+    src: local("Poppins #121212 Italic"), local("Poppins-#121212Italic"), url(../fonts/poppins/poppins-v5-latin-900italic.eot@) format("embedded-opentype"), url(../fonts/poppins/poppins-v5-latin-900italic.woff2) format("woff2"), url(../fonts/poppins/poppins-v5-latin-900italic.woff) format("woff"), url(../fonts/poppins/poppins-v5-latin-900italic.ttf) format("truetype"), url(../fonts/poppins/poppins-v5-latin-900italic.svg) format("svg")
 }
 
 h1,
@@ -1112,7 +1112,7 @@ h1.title {
 }
 
 .btn-download {
-    background-color: black;
+    background-color: #121212;
     border: none
 }
 
