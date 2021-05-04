@@ -1264,6 +1264,16 @@ h1.title {
     font-weight: 700
 }
 
+.blog-text h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300
+}
+
 .blog-text p {
     color: #8f8f8f;
     text-align: center;
